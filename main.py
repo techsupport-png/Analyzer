@@ -49,13 +49,13 @@ def analyze_documents(university, branch, resume_text, sop_text, lor_text):
     Evaluate the student's documents for admission to **{university}**, in the **{branch}** program.
 
     --- RESUME ---
-    {resume_text[:2000]}
+    {resume_text[:5000]}
 
     --- STATEMENT OF PURPOSE (SOP) ---
-    {sop_text[:2000]}
+    {sop_text[:5000]}
 
     --- LETTER OF RECOMMENDATION (LOR) ---
-    {lor_text[:2000]}
+    {lor_text[:5000]}
 
     Please return a structured analysis including:
     1. Overall Evaluation Score (out of 100)
